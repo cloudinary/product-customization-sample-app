@@ -2,7 +2,8 @@ require('dotenv').load();
 const cloudinary = require("cloudinary").v2;
 
 /**
- * Upload assets by running npm run upload or npm start
+ * Upload assets by running npm run upload or npm start.
+ * Please refer to README for instruction on setup.
  */
 if (typeof (process.env.CLOUDINARY_URL) === 'undefined') {
   console.warn('!! cloudinary config is undefined !!');
