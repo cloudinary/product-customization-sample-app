@@ -23,4 +23,11 @@ if (typeof (process.env.CLOUDINARY_URL) === 'undefined') {
     }).catch((error) => {
     console.log('error', error);
   });
+
+  cloudinary.uploader.upload('./images/logo.png', {public_id: 'logo'})
+    .then((result) => {
+      console.log(result)
+    }).catch((error) => {
+    console.log('error', error);
+  });
 }

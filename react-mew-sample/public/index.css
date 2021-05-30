@@ -1,0 +1,9 @@
+.topnav {
+    background-color: #000000;
+    overflow: hidden;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 25px;
+    font-size: 17px;
+    font-weight: bold;
+}
