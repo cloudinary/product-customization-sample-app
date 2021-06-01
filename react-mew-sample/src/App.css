@@ -7,3 +7,21 @@
 hr {
   border-top: 2px solid lightgrey;
 }
+
+.row {
+  display: table;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.column {
+  float: right;
+  padding: 5px;
+}
+
+img:hover{
+  border: 1px solid #2E76CF;
+  overflow: hidden;
+  margin: -1px;
+}
+
