@@ -24,7 +24,6 @@ function App() {
     <div>
       <div className={"row"}>
         <div className={"column"}>
-          color picker
         </div>
         <div className={"column"}>
           <ImagePicker mediaEditor={mediaEditor}/>

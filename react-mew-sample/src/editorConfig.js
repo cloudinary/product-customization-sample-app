@@ -1,7 +1,8 @@
+import cloudName from "./config";
+
 let editorConfig = {
   publicIds: [{publicId: 'tshirt'}],
-  // update cloudName
-  cloudName: "rcstraus",
+  cloudName: cloudName,
   mode: 'inline',
   image: {
     steps: ["imageOverlay", "textOverlays", "export"],
