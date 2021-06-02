@@ -33,7 +33,7 @@ function App() {
         </div>
       </div>
       <hr/>
-      <div className={'widget'} id="widget" />
+      <div className='widget' id="widget" />
     </div>
   );
 }
