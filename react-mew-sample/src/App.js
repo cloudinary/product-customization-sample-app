@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import editorConfig from './editorConfig';
 import ImagePicker from './ImagePicker';
+import ColorPicker from "./ColorPicker";
 
 function launchEditor(myEditor){
   myEditor.update(editorConfig);
@@ -23,13 +24,14 @@ function App() {
   return (
     <div>
       <div className={"row"}>
-        <div className={"column"}>
+        <div className="column">
+          <ColorPicker mediaEditor={mediaEditor}/>
         </div>
+        <div className="column"><span className="space"/></div>
         <div className={"column"}>
           <ImagePicker mediaEditor={mediaEditor}/>
         </div>
       </div>
-      <div style={{height: '100px'}}/>
       <hr/>
       <div className={'widget'} id="widget" />
     </div>

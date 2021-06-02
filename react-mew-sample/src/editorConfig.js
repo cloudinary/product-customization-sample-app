@@ -9,13 +9,20 @@ let editorConfig = {
     textOverlays: {
       fonts: [
         "Arial",
+        "Georgia",
         "Times New Roman"
       ],
       presets: [
         {
-          "label": "select to add text",
-          "fontSize": 40,
-        }
+          label: "test",
+          previewText: "ABC",
+          size: 40,
+          font: "Georgia",
+          weight: "bold",
+          style: "italic",
+          color: "#3b83c8",//"blue",
+          underline: false
+        },
       ]
     },
     imageOverlay: {

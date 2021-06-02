@@ -24,3 +24,49 @@ img:hover{
   overflow: hidden;
   margin: -1px;
 }
+
+.space{
+    padding-left: 30px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+
+.dot {
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 3px solid #FFF;
+  box-shadow: 0 0 2px #888;
+}
+
+.dot:hover {
+  background: #e1e1e1;
+  box-shadow: 0 0 0 1px #d0d0d0;
+}
+
+.blue {
+  background-color: #2596be;
+}
+
+.green {
+  background-color: #1a730d;
+}
+
+.pink {
+  background-color: #d1109e;
+}
+
+.purple {
+  background-color: #8a0ef0;
+}
+
+.orange {
+  background-color: #f08a0e;
+}
+
