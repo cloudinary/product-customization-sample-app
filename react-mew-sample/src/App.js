@@ -22,16 +22,16 @@ function App() {
   },[]);
   return (
     <div>
-      <div className={"row"}>
-        <div className={"column"}>
+      <div className="row">
+        <div className="column">
         </div>
-        <div className={"column"}>
+        <div className="column">
           <ImagePicker mediaEditor={mediaEditor}/>
         </div>
       </div>
       <div style={{height: '100px'}}/>
       <hr/>
-      <div className={'widget'} id="widget" />
+      <div className='widget' id="widget" />
     </div>
   );
 }
