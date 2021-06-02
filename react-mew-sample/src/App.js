@@ -23,13 +23,13 @@ function App() {
   },[]);
   return (
     <div>
-      <div className={"row"}>
-        <div className="column">
-          <ColorPicker mediaEditor={mediaEditor}/>
-        </div>
-        <div className="column"><span className="space"/></div>
-        <div className={"column"}>
+      <div className="container">
+        <div>
           <ImagePicker mediaEditor={mediaEditor}/>
+        </div>
+        <div className="space"></div>
+        <div>
+          <ColorPicker mediaEditor={mediaEditor}/>
         </div>
       </div>
       <hr/>

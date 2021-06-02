@@ -4,36 +4,25 @@
   height: 800px;
 }
 
-hr {
-  border-top: 2px solid lightgrey;
+.container {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.row {
-  display: table;
-  margin-left:auto;
-  margin-right:auto;
+.container > div {
+  padding:0 5px;
 }
 
-.column {
-  float: right;
-  padding: 5px;
+.space {
+  margin-left: 50px;
 }
 
 img:hover{
   border: 1px solid #2E76CF;
   overflow: hidden;
   margin: -1px;
-}
-
-.space{
-    padding-left: 30px;
-}
-
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 70px;
 }
 
 .dot {
