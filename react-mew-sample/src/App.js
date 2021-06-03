@@ -7,9 +7,6 @@ import ColorPicker from "./ColorPicker";
 function launchEditor(myEditor){
   myEditor.update(editorConfig);
   myEditor.show();
-  myEditor.on("export",function(data){
-    console.log(data);
-  });
 }
 
 function App() {
@@ -23,11 +20,13 @@ function App() {
   },[]);
   return (
     <div>
-      <div className="container">
+      <div className="container" style={disabled ? {pointerEvents: "none", opacity: "0.4"} : {}}>
+        <div>Image</div>
         <div>
           <ImagePicker mediaEditor={mediaEditor}/>
         </div>
-        <div className="space"></div>
+        <div className="space"/>
+        <div>Image color</div>
         <div>
           <ColorPicker mediaEditor={mediaEditor}/>
         </div>

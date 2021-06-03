@@ -5,7 +5,8 @@ import './App.css';
  * Applies the Cloudinary transformation e_replace_color to the underlying images.
  */
 function replaceColor(e, mediaEditor) {
-  const colorToReplace = e.target.id;
+  const colorToReplace = e.target.id || e.target.value.substring(1);
+
   mediaEditor.update({image:{transformation: [{effect: `replace_color:${colorToReplace}:20:2596be`}]}})
 }
 
@@ -26,6 +27,12 @@ function ColorPicker(props){
       </div>
       <div>
         <span className="dot blue" id="2596be" onClick={(e)=>{replaceColor(e, props.mediaEditor)}}/>
+      </div>
+      <div>
+        <span className="divider"/>
+      </div>
+      <div>
+        <input type="color" onChange={(e)=>{replaceColor(e, props.mediaEditor)}}/>
       </div>
     </div>
   )
