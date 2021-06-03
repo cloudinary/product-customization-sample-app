@@ -20,12 +20,12 @@ function App() {
   },[]);
   return (
     <div>
-      <div className="container" style={disabled ? {pointerEvents: "none", opacity: "0.4"} : {}}>
+      <div className="container">
         <div>Image</div>
         <div>
           <ImagePicker mediaEditor={mediaEditor}/>
         </div>
-        <div className="space"/>
+        <div className="space"></div>
         <div>Image color</div>
         <div>
           <ColorPicker mediaEditor={mediaEditor}/>
