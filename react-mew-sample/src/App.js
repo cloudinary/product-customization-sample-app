@@ -15,7 +15,7 @@ function launchEditor(editor){
 }
 
 /**
- * Subscribes to "next" and "prev" events
+ * Subscribes to "next", "prev", and "export" events
  * @param editor
  * @param setDisabled
  */
@@ -32,7 +32,10 @@ function editorListener(editor, setDisabled){
   });
   editor.on("export", ()=>{
     setDisabled(false);
-    launchEditor(editor);
+
+    // resets transformation
+    editor.update({image:{transformation: [{}]}});
+    editor.show();
   })
 }
 

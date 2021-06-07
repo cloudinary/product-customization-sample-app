@@ -8,7 +8,7 @@ let editorConfig = {
     "messages": {
       "en_US": {
         "footer": {
-          "export": "Relaunch"
+          "export": "clear and restart"
         }
       }
     }
@@ -16,15 +16,14 @@ let editorConfig = {
   mode: 'inline',
   image: {
     steps: ["imageOverlay", "textOverlays", "export"],
+    // uncomment when text overlay is released
     // textOverlays: {
     //   fonts: [
-    //     "Arial",
     //     "Georgia",
-    //     "Times New Roman"
     //   ],
     //   presets: [
     //     {
-    //       label: "test",
+    //       label: "Add text",
     //       previewText: "ABC",
     //       size: 40,
     //       font: "Georgia",
