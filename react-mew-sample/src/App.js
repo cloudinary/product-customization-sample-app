@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import editorConfig from './editorConfig';
+import editorConfig from './config/editorConfig';
 import ImagePicker from './ImagePicker';
 import ColorPicker from "./ColorPicker";
+import UploadLogo from "./UploadLogo";
 
 /**
  * Launches mediaEditor
@@ -29,6 +30,10 @@ function editorListener(editor, setDisabled){
       setDisabled(false);
     }
   });
+  editor.on("export", ()=>{
+    setDisabled(false);
+    launchEditor(editor);
+  })
 }
 
 function App() {
@@ -49,6 +54,9 @@ function App() {
         <div>
           <ImagePicker mediaEditor={mediaEditor}/>
         </div>
+        <div className="space"/>
+        <div>Logo</div>
+        <UploadLogo mediaEditor={mediaEditor}/>
         <div className="space"/>
         <div>Image color</div>
         <div>
