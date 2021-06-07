@@ -1,6 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:wght@100&display=swap');
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  color: #646464;
+}
+
+hr {
+   border-top: 1px solid lightgrey;
+ }
+
 .widget {
   margin: 0 auto;
-  width: 800px;
   height: 800px;
 }
 
@@ -12,11 +22,18 @@
 }
 
 .container > div {
-  padding:0 5px;
+  margin:0 5px;
+}
+
+.container > span {
+  margin:0 5px;
 }
 
 .space {
   margin-left: 50px;
+}
+img {
+  border-radius: 5%;
 }
 
 img:hover{
@@ -57,5 +74,21 @@ img:hover{
 
 .orange {
   background-color: #f08a0e;
+}
+
+.divider {
+  border-left: 1px solid lightgrey;
+  height: 30px;
+}
+
+input[type="color"] {
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 25%;
+  margin-left: 5px;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
 }
 
