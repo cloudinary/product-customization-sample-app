@@ -30,7 +30,7 @@ hr {
 }
 
 .space {
-  margin-left: 50px;
+  padding: 10px;
 }
 img {
   border-radius: 5%;
@@ -90,5 +90,14 @@ input[type="color"] {
 }
 input[type="color"]::-webkit-color-swatch-wrapper {
   padding: 0;
+}
+
+.uploadWidget{
+  background-color: #0073e6;
+  border: none;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5%;
 }
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import cloudName from "./config";
+import {cloudName} from './config/cloudConfig';
 
 function ImagePicker(props){
   return(

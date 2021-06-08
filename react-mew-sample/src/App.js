@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import editorConfig from './editorConfig';
+import editorConfig from './config/editorConfig';
 import ImagePicker from './ImagePicker';
 import ColorPicker from "./ColorPicker";
+import UploadLogo from "./UploadLogo";
 
 /**
  * Launches mediaEditor
@@ -14,7 +15,7 @@ function launchEditor(editor){
 }
 
 /**
- * Subscribes to "next" and "prev" events
+ * Subscribes to "next", "prev", and "export" events
  * @param editor
  * @param setDisabled
  */
@@ -29,6 +30,13 @@ function editorListener(editor, setDisabled){
       setDisabled(false);
     }
   });
+  editor.on("export", ()=>{
+    setDisabled(false);
+
+    // resets transformation
+    editor.update({image:{transformation: [{}]}});
+    editor.show();
+  })
 }
 
 function App() {
@@ -49,6 +57,9 @@ function App() {
         <div>
           <ImagePicker mediaEditor={mediaEditor}/>
         </div>
+        <div className="space"/>
+        <div>Logo</div>
+        <UploadLogo mediaEditor={mediaEditor}/>
         <div className="space"/>
         <div>Image color</div>
         <div>
