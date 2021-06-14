@@ -5,14 +5,15 @@ import {cloudName} from './config/cloudConfig';
 function ImagePicker(props){
   return(
     <div className="container">
+      <div>Image</div>
       <div>
         <img
-          src={`http://res.cloudinary.com/${cloudName}/image/upload/e_sharpen,w_55,h_55,c_scale/tshirt`}
+          src={`http://res.cloudinary.com/${cloudName}/image/upload/e_sharpen,w_50,h_50,c_fit/tshirt`}
           onClick={()=> {props.mediaEditor.update({publicIds: [{publicId:'tshirt'}]})}}/>
       </div>
       <div>
         <img
-          src={`http://res.cloudinary.com/${cloudName}/image/upload/e_sharpen,w_55,h_55,c_scale/notebook`}
+          src={`http://res.cloudinary.com/${cloudName}/image/upload/e_sharpen,w_50,h_50,c_fit/notebook`}
           onClick={()=> {props.mediaEditor.update({publicIds: [{publicId:'notebook'}]})}}/>
       </div>
     </div>

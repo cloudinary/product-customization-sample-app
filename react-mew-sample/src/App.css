@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:wght@100&display=swap');
 
 body {
+  color: rgb(65, 75, 87);
   font-family: 'Fira Sans', sans-serif;
-  color: #646464;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
 }
 
 hr {
@@ -15,7 +18,7 @@ hr {
 }
 
 .container {
-  height: 100px;
+  margin-top: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,7 +33,7 @@ hr {
 }
 
 .space {
-  padding: 10px;
+  padding: 5px;
 }
 img {
   border-radius: 5%;
@@ -43,8 +46,9 @@ img:hover{
 }
 
 .dot {
-  height: 13px;
-  width: 13px;
+  margin: 5px;
+  height: 20px;
+  width: 20px;
   border-radius: 50%;
   display: inline-block;
   border: 3px solid #FFF;
@@ -54,6 +58,10 @@ img:hover{
 .dot:hover {
   background: #e1e1e1;
   box-shadow: 0 0 0 1px #d0d0d0;
+}
+
+.dot:focus {
+  border: 1px solid #FFF;
 }
 
 .blue {
@@ -98,6 +106,6 @@ input[type="color"]::-webkit-color-swatch-wrapper {
   color: white;
   text-align: center;
   padding: 5px;
-  border-radius: 5%;
+  border-radius: 7%;
 }
 

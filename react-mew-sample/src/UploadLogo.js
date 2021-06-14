@@ -28,7 +28,10 @@ function UploadLogo(props){
       });
   }
   return(
-    <button className="uploadWidget" onClick={setLogo}>Upload Logo</button>
+    <div className="container">
+      <div>Logo</div>
+      <div><button className="uploadWidget" onClick={setLogo}>Upload Logo</button></div>
+    </div>
   )
 }
 

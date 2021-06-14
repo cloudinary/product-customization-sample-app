@@ -53,15 +53,12 @@ function App() {
   return (
     <div>
       <div className="container" style={disabled ? {pointerEvents: "none", opacity: "0.4"} : {}}>
-        <div>Image</div>
         <div>
           <ImagePicker mediaEditor={mediaEditor}/>
         </div>
-        <div className="space"/>
-        <div>Logo</div>
+        <div className="space"></div>
         <UploadLogo mediaEditor={mediaEditor}/>
-        <div className="space"/>
-        <div>Image color</div>
+        <div className="space"></div>
         <div>
           <ColorPicker mediaEditor={mediaEditor}/>
         </div>
