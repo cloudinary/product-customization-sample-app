@@ -20,7 +20,7 @@ for unsigned uploads when using the upload widget.
 1. Log into the [Management Console](https://cloudinary.com/console) and select Settings > Upload, then scroll 
 to the Upload presets section.
 
-2. Create a new upload preset by clicking Add upload preset at the bottom of the upload preset list.
+2. Create a new upload preset by clicking **Add upload preset** at the bottom of the upload preset list.
 
 3. Make sure you mark you preset `unsinged`
 
