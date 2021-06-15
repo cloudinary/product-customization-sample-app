@@ -37,6 +37,6 @@ into the .env file of the project or export it (i.e. export CLOUDINARY_URL=xxx).
 ### Getting Started
 
 1. Make sure the above setup was performed.
-2. Clone project
+2. Clone the project.
 3. Run npm install
 4. Run npm start 
