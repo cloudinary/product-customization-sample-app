@@ -17,7 +17,7 @@ Upload presets enable you to centrally define a set of asset upload options
 instead of specifying them in each upload call. We will use our Upload preset
 for unsigned uploads when using the upload widget.
 
-1. log into the [Management Console](https://cloudinary.com/console) and select Settings > Upload and then scroll 
+1. Log into the [Management Console](https://cloudinary.com/console) and select Settings > Upload, then scroll 
 to the Upload presets section.
 
 2. Create a new upload preset by clicking Add upload preset at the bottom of the upload preset list.
