@@ -9,7 +9,7 @@ The sample covers the following use cases:
 * Applying color transformations to images.
 
 ### Configuration Setup
-To get started we will first need to update our cloud configuration.
+To get started, first update your cloud configuration.
 
 **Upload Preset Setup**
 
