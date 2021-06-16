@@ -28,7 +28,7 @@ to the **Upload presets** section.
 3. Set up **Server environment variable**:
 To use our Node SDK we will set up our environment variable.
 
-    * Copy the Environment variable configuration parameters 
+    * Copy the **API Environment variable** 
 from [Management Console](https://cloudinary.com/console) Console of your account 
 into .env file of the project or export it (i.e. export CLOUDINARY_URL=xxx).
 
