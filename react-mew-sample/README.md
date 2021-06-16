@@ -24,7 +24,7 @@ to the **Upload presets** section.
 
 3. Set the preset to `unsigned`.
 
-4. Navigate to config/cloudConfig.js and paste your cloudName and Upload Preset name.
+4. Navigate to config/cloudConfig.js and paste your cloud name and upload preset name.
 
 **Server environment variable Setup**
 
