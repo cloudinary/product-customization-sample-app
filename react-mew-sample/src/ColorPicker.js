@@ -13,12 +13,13 @@ function replaceColor(e, mediaEditor) {
 function ColorPicker(props){
   return(
     <div className="container">
-      <span className="dot orange" id="f08a0e" onClick={(e)=>{replaceColor(e, props.mediaEditor)}}/>
-      <span className="dot purple" id="8a0ef0" onClick={(e)=>{replaceColor(e, props.mediaEditor)}}/>
-      <span className="dot pink" id="d1109e" onClick={(e)=>{replaceColor(e, props.mediaEditor)}}/>
-      <span className="dot green" id="1a730d" onClick={(e)=>{replaceColor(e, props.mediaEditor)}}/>
-      <span className="dot blue" id="2596be" onClick={(e)=>{replaceColor(e, props.mediaEditor)}}/>
-      <span className="divider"/>
+      <div>Image color</div>
+      <button className="dot orange" id="f08a0e" onClick={(e)=>{replaceColor(e, props.mediaEditor)}}/>
+      <button className="dot purple" id="8a0ef0" onClick={(e)=>{replaceColor(e, props.mediaEditor)}}/>
+      <button className="dot pink" id="d1109e" onClick={(e)=>{replaceColor(e, props.mediaEditor)}}/>
+      <button className="dot green" id="1a730d" onClick={(e)=>{replaceColor(e, props.mediaEditor)}}/>
+      <button className="dot blue" id="2596be" onClick={(e)=>{replaceColor(e, props.mediaEditor)}}/>
+      <div className="divider"/>
       <input type="color" onChange={(e)=>{replaceColor(e, props.mediaEditor)}}/>
     </div>
   )

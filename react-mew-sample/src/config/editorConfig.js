@@ -8,7 +8,7 @@ let editorConfig = {
     "messages": {
       "en_US": {
         "footer": {
-          "export": "clear and restart"
+          "export": "CLEAR & RESTART"
         }
       }
     }
