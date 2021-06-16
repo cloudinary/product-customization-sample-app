@@ -14,7 +14,7 @@ The sample covers the following use cases:
 
 2. Set up an **upload preset**:
 Upload presets enable you to centrally define a set of asset upload options
-instead of specifying them in each upload call. We will use our upload preset
+instead of specifying them in each upload call. The upload preset is used 
 for unsigned uploads when using the upload widget.
     * Log into your [Management Console](https://cloudinary.com/console) and select **Settings > Upload** and then scroll 
 to the **Upload presets** section.
