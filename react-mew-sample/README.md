@@ -29,7 +29,7 @@ to the **Upload presets** section.
 To use the Node SDK you need to set up your environment variable.
 
     * Copy the **API Environment variable** 
-from [Management Console](https://cloudinary.com/console) Console of your account 
+from your [Management Console](https://cloudinary.com/console)  
 into .env file of the project or export it (i.e. export CLOUDINARY_URL=xxx).
 
 4. Run npm install
