@@ -26,7 +26,7 @@ to the **Upload presets** section.
 
 4. Navigate to config/cloudConfig.js and paste your cloud name and upload preset name.
 
-**Server environment variable Setup**
+**Server Environment Variable Setup**
 
 To use our Node SDK we will set up our environment variable.
 
