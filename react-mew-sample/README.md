@@ -28,7 +28,7 @@ to the **Upload presets** section.
 
 **Server Environment Variable Setup**
 
-To use our Node SDK we will set up our environment variable.
+To use the Node SDK, set up your environment variable.
 
 1. Copy the Environment variable configuration parameters 
 from [Management Console](https://cloudinary.com/console) Console of your account 
