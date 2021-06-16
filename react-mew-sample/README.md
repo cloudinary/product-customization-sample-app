@@ -10,7 +10,7 @@ The sample covers the following use cases:
 
 ### Getting Started
 
-1. Clone project
+1. Clone the project.
 
 2. Set up **Upload Preset Setup**:
 Upload presets enable you to centrally define a set of asset upload options
