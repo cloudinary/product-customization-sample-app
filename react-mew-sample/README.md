@@ -8,35 +8,34 @@ The sample covers the following use cases:
 * Embedding the Upload Widget to upload unsigned uploads using an upload preset.
 * Applying color transformations to images.
 
-### Configuration Setup
-To get started we will first need to update our cloud configuration.
+### Getting Started
 
-**Upload Preset Setup**
+1. Clone project
 
+2. Set up **Upload Preset Setup**:
 Upload presets enable you to centrally define a set of asset upload options
 instead of specifying them in each upload call. We will use our Upload preset
 for unsigned uploads when using the upload widget.
 
-1. log into the [Management Console](https://cloudinary.com/console) and select Settings > Upload and then scroll 
+    * log into the [Management Console](https://cloudinary.com/console) and select Settings > Upload and then scroll 
 to the Upload presets section.
 
-2. Create a new upload preset by clicking Add upload preset at the bottom of the upload preset list.
+    * Create a new upload preset by clicking Add upload preset at the bottom of the upload preset list.
 
-3. Make sure you mark you preset `unsinged`
+    * Make sure you mark you preset `unsinged`
 
-4. Navigate to config/cloudConfig.js and paste your cloudName and Upload Preset name.
+    * Navigate to config/cloudConfig.js and paste your cloudName and Upload Preset name.
 
-**Server environment variable Setup**
-
+3. Set up **Server environment variable**:
 To use our Node SDK we will set up our environment variable.
 
-1. Copy the Environment variable configuration parameters 
+    * Copy the Environment variable configuration parameters 
 from [Management Console](https://cloudinary.com/console) Console of your account 
 into .env file of the project or export it (i.e. export CLOUDINARY_URL=xxx).
- 
-### Getting Started
 
-1. Make sure the setup from above was preformed
-2. Clone project
-3. Run npm install
-4. Run npm start 
+4. Run npm install
+5. Run npm start 
+
+
+
+ 
