@@ -5,7 +5,7 @@ The sample covers the following use cases:
 
 * Uploading images from a server using the Node SDK.
 * Embedding the Media Editing Widget.
-* Embedding the Upload Widget to upload unsigned uploads using an upload preset.
+* Embedding the Upload Widget to perform unsigned uploads using an upload preset.
 * Applying color transformations to images.
 
 ### Configuration Setup
