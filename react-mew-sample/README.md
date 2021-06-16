@@ -21,7 +21,7 @@ to the **Upload presets** section.
 
     * Create a new upload preset by clicking **Add upload preset** at the bottom of the upload preset list.
 
-    * Make sure you mark you preset `unsinged`
+    * Set the **Signing mode** to  **unsigned** and save the upload preset.
 
     * Navigate to config/cloudConfig.js and paste your cloudName and Upload Preset name.
 
