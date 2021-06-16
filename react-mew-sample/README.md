@@ -25,7 +25,7 @@ to the **Upload presets** section.
 
     * In your cloned project, navigate to **config/cloudConfig.js** and set your cloud name and upload preset name.
 
-3. Set up **Server environment variable**:
+3. Set up a **server environment variable**:
 To use our Node SDK we will set up our environment variable.
 
     * Copy the **API Environment variable** 
