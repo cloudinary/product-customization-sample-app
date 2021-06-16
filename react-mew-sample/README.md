@@ -12,7 +12,7 @@ The sample covers the following use cases:
 
 1. Clone the project.
 
-2. Set up **Upload Preset Setup**:
+2. Set up an **upload preset**:
 Upload presets enable you to centrally define a set of asset upload options
 instead of specifying them in each upload call. We will use our upload preset
 for unsigned uploads when using the upload widget.
