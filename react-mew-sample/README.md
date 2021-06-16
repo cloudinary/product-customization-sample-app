@@ -31,7 +31,7 @@ to the **Upload presets** section.
 To use the Node SDK, set up your environment variable.
 
 1. Copy the Environment variable configuration parameters 
-from [Management Console](https://cloudinary.com/console) Console of your account 
+from the [Management Console](https://cloudinary.com/console) of your account 
 into the .env file of the project or export it (i.e. export CLOUDINARY_URL=xxx).
  
 ### Getting Started
