@@ -3,6 +3,10 @@ import './App.css';
 import {cloudName, uploadPreset} from './config/cloudConfig';
 import {logoConfig} from "./config/logoConfig";
 
+/**
+ * Uses the upload widget for unsigned uploads to the Cloudinary account.
+ * Updates the logo on the image resource.
+ */
 function UploadLogo(props){
   function setLogo(){
     window.cloudinary.openUploadWidget(

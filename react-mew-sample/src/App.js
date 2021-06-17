@@ -56,9 +56,9 @@ function App() {
         <div>
           <ImagePicker mediaEditor={mediaEditor}/>
         </div>
-        <div className="space"></div>
+        <div className="space"/>
         <UploadLogo mediaEditor={mediaEditor}/>
-        <div className="space"></div>
+        <div className="space"/>
         <div>
           <ColorPicker mediaEditor={mediaEditor}/>
         </div>
