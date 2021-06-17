@@ -11,32 +11,32 @@ The sample covers the following use cases:
 
 ### Getting Started
 
-1. Clone project
+1. Clone the project.
 
-2. Set up **Upload Preset Setup**:
+2. Set up an **upload preset**:
 Upload presets enable you to centrally define a set of asset upload options
-instead of specifying them in each upload call. We will use our upload preset
+instead of specifying them in each upload call. The upload preset is used 
 for unsigned uploads when using the upload widget. To read more on Upload Presets,
 see the [following](https://cloudinary.com/documentation/upload_presets).
-    * log into the [Management Console](https://cloudinary.com/console) and select Settings > Upload and then scroll 
-to the Upload presets section.
+    * Log into your [Management Console](https://cloudinary.com/console) and select **Settings > Upload** and then scroll 
+to the **Upload presets** section.
 
-    * Create a new upload preset by clicking Add upload preset at the bottom of the upload preset list.
+    * Create a new upload preset by clicking **Add upload preset** at the bottom of the upload preset list.
 
-    * Make sure you mark you preset `unsinged`
+    * Set the **Signing mode** to  **unsigned** and save the upload preset.
 
-    * Navigate to config/cloudConfig.js and paste your cloudName and Upload Preset name.
+    * In your cloned project, navigate to **config/cloudConfig.js** and set your cloud name and upload preset name.
 
-3. Set up **Server environment variable**:
-To use our [Node SDK](https://cloudinary.com/documentation/node_integration)
- we will set up our environment variable.
+3. Set up a **server environment variable**:
+To use the [Node SDK](https://cloudinary.com/documentation/node_integration)
+you need to set up your environment variable.
 
-    * Copy the Environment variable configuration parameters 
-from [Management Console](https://cloudinary.com/console) Console of your account 
-into .env file of the project or export it (i.e. export CLOUDINARY_URL=xxx).
+    * Copy the **API Environment variable** 
+from your [Management Console](https://cloudinary.com/console)  
+into the **.env** file of your project or export it (i.e. export CLOUDINARY_URL=xxx).
 
-4. Run npm install
-5. Run npm start 
+4. Run `npm install`.
+5. Run `npm start`. 
 
-**NOTE**: Our [Media Editing Widget](https://cloudinary.com/documentation/media_editor)
+**NOTE**: The [Media Editing Widget](https://cloudinary.com/documentation/media_editor)
 is fully configurable. Please visit our documentation for more information. 
