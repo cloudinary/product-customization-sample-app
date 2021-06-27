@@ -39,4 +39,4 @@ into the **.env** file of your project or export it (i.e. export CLOUDINARY_URL=
 5. Run `npm start`. 
 
 **NOTE**: The [Media Editing Widget](https://cloudinary.com/documentation/media_editor)
-is fully configurable. Please visit our documentation for more information. 
+is fully configurable. Please visit our [documentation](https://cloudinary.com/documentation/media_editor) for more information. 
