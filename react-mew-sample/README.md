@@ -25,7 +25,7 @@ to the **Upload presets** section.
 
     * Set the **Signing mode** to  **unsigned** and save the upload preset.
 
-    * In your cloned project, navigate to **config/cloudConfig.js** and set your cloud name and upload preset name.
+    * In your cloned project, navigate to **src/config/cloudConfig.js** and set your cloud name and upload preset name in the `cloudName` and `uploadPreset` variables respectively.
 
 3. Set up a **server environment variable**:
 To use the [Node SDK](https://cloudinary.com/documentation/node_integration)
