@@ -2,6 +2,9 @@ import React from 'react';
 import './App.css';
 import {cloudName} from './config/cloudConfig';
 
+/**
+  Displays images that are hosted on Cloudinary
+ */
 function ImagePicker(props){
   return(
     <div className="container">
