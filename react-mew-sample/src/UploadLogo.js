@@ -5,7 +5,7 @@ import {logoConfig} from "./config/logoConfig";
 
 /**
  * Uses the upload widget for unsigned uploads to the Cloudinary account.
- * Updates the logo on the image resource.
+ * Updates the logo on the image asset.
  */
 function UploadLogo(props){
   function setLogo(){

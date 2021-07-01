@@ -33,7 +33,7 @@ function editorListener(editor, setDisabled){
   editor.on("export", ()=>{
     setDisabled(false);
 
-    // resets transformation
+    // Resets transformation
     editor.update({image:{transformation: [{}]}});
     editor.show();
   })

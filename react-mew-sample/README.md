@@ -5,7 +5,7 @@ The sample covers the following use cases:
 
 * Uploading images from a server using the Node SDK.
 * Embedding the [Media Editing Widget](https://cloudinary.com/documentation/media_editor).
-* Embedding the [Upload Widget](https://cloudinary.com/documentation/upload_widget)
+* Embedding the [Upload Widget](https://cloudinary.com/documentation/upload_widget).
  to perform unsigned uploads using an upload preset.
 * Applying color transformations to images.
 
