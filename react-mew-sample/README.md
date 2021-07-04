@@ -7,7 +7,8 @@ The sample covers the following use cases:
 * Embedding the [Media Editing Widget](https://cloudinary.com/documentation/media_editor).
 * Embedding the [Upload Widget](https://cloudinary.com/documentation/upload_widget).
  to perform unsigned uploads using an upload preset.
-* Applying color transformations to images.
+* Applying color transformations to images using our 
+[React and base SDKs](https://staging.cloudinary.com/documentation/react2_quick_start).
 
 ### Getting Started
 
