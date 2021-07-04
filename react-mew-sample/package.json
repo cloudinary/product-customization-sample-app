@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@cloudinary/base": "^1.0.0-beta.3",
+    "@cloudinary/react": "^1.0.0-beta.8",
     "cloudinary": "^1.25.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
