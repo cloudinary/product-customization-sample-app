@@ -1,5 +1,5 @@
 /**
- * The cloud name of the Cloudinary account used throughout the application. 
+ * The cloud name of the Cloudinary account used throughout the application.
  * Replace <cloudName> with the name of your cloud.
  * @type {string}
  */
